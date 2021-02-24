@@ -28,3 +28,30 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans',sans-serif;
 }
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+header img{
+    width: 150px;
+    height: 24px;
+    margin: 35px auto;
+    /* 
+    This line 👆 replaces this two
+    margin-top: 35px;
+    align-self: center; */
+}
+.header__main-container{
+    /* This width at 90% will give some space to the sides  */
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    align-self: center;
+}
