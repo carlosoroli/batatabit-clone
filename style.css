@@ -332,3 +332,50 @@ main{
     color:var(--grey);
     margin-bottom: 32px;
 }
+
+.card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.card .card-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card .clock{
+    background-image: url(./assets/icons/clock.svg);
+}
+.card .eye{
+    background-image: url(./assets/icons/eye.svg);
+}
+.card .dollar-sign{
+    background-image: url(./assets/icons/dollar-sign.svg);
+}
+.card .check-mark{
+    background-image: url(./assets/icons/check-cicle.svg);
+}
+.card .card__title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--white);
+    margin-bottom:10px;
+}
+.card .card__body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+}
