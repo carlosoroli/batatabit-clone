@@ -174,3 +174,40 @@ main{
     color: var(--grey);
     background-color: var(--white);
 }
+.currency-table__container .table__top-left{
+    border-radius: 15px 0 0 0;
+}
+.currency-table__container .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+.currency-table__container .table__bottom-left{
+    border-radius: 0 0 0 15px;
+}
+.currency-table__container .table__bottom-right{
+    border-radius: 0 0 15px 0;
+}
+.currency-table__container .table__right{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+.currency-table__container .down{
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    margin-left: 10px;
+    background-image: url(./assets/icons/trending-down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.currency-table__container .up{
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    margin-left: 10px;
+    background-image: url(./assets/icons/trending-up.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
