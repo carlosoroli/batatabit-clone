@@ -211,3 +211,13 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.currency-table__date{
+
+    font-family: 'Inter',sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-top: 24px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
