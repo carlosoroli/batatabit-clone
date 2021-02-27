@@ -27,6 +27,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans',sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     position: relative;
@@ -337,7 +338,7 @@ main{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 0 auto;
     margin-bottom: 16px;
     padding: 15px;
@@ -378,4 +379,23 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--grey);
+}
+.main__background-img{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(./assets/imgs/bitcoin-girl-3x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.main__background-img p{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    padding-top: 60px;
+    color: var(--white);
+
+
 }
