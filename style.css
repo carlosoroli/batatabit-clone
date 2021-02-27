@@ -441,10 +441,8 @@ main{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    /* margin-left: 40px;
-    margin-right: 40px; */
-    padding-left: 40px;
-    padding-right: 40px;
+    padding:0 20px;
+
 }
 .price-card{
     position: relative;
@@ -453,9 +451,9 @@ main{
     min-width: 200px;
     max-width: 300px;
     min-height: 250px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 20px auto 50px;
+    /* margin-top: 20px;
+    margin-bottom: 50px; */
     background-color: var(--white)  ;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius:  8px;
@@ -521,3 +519,28 @@ main{
     background-image: url(./assets/icons/arrow-right-orange.svg);
     vertical-align: text-bottom;
 }
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer__left-side ul{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+footer .footer__left-side ul li{
+    margin: 8px 0;
+}
+footer .footer__left-side a{
+    text-decoration: none;
+}
+
