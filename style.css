@@ -435,13 +435,26 @@ main{
     line-height: 1.8rem;
     color: #757575;
 }
+.pricing-container__slider{
+    display: flex; 
+    gap: 25px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .price-card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 200px;
     max-width: 300px;
     min-height: 250px;
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 50px;
     background-color: var(--white)  ;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
