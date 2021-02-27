@@ -442,6 +442,7 @@ main{
     max-width: 300px;
     min-height: 250px;
     margin: 0 auto;
+    margin-bottom: 50px;
     background-color: var(--white)  ;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius:  8px;
@@ -462,4 +463,48 @@ main{
     font-weight: 700;
     line-height: 1.4rem;
 
+}
+.price-card__bill{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-bottom: 8px;
+}
+.price-card__price{
+    font-family: 'Inter',sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 6.2rem;
+    margin-bottom: 16px;
+}
+.price-card__price span{
+    font-family: 'Inder',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: 3.0rem;
+    margin-right: 5px;
+}
+.price-card__saving{
+    font-family: 'Inter',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #757575;
+    margin-bottom: 16px;
+}
+.price-card__cta{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    background-color: var(--off-white);
+    padding:15px;
+    border: solid 2px var(--bitcoin-orange);
+    border-radius: 5px;
+}
+.price-card__cta .right-arrow{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/arrow-right-orange.svg);
+    vertical-align: text-bottom;
 }
