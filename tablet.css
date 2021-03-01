@@ -1,6 +1,12 @@
 .product-cards-container{
     display: flex;
     flex-wrap: wrap;
-    width: 930px;
+    width: 928px;
+    margin: 0 auto;
+}
+.tables-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
     margin: 0 auto;
 }
