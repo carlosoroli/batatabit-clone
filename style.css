@@ -40,9 +40,9 @@ header{
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
-header img{
-    width: 150px;
-    height: 24px;
+header .header-logo{
+    /* width: 150px;
+    height: 24px; */
     margin: 40px auto;
     
     /* This line 👆 replaces this two */
